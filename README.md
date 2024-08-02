@@ -1,55 +1,98 @@
 # Holden_Memcals
 
-## Holden Memcals<img alt="" align="right" src="https://img.shields.io/badge/IDE-Visual%20Studio-informational?style=flat&logo=Visual%20Studio&logoColor=white&color=5C2D91" /> <img alt="" align="right" src="https://img.shields.io/badge/Code-C%20Sharp-success?style=flat&logo=C%20Sharp&logoColor=white&color=239120" />
-
-### **Project**: Release Candidate 3 Development of ALDL Diagnostics <img alt="" align="right" src="https://img.shields.io/badge/Status-Inital%20Design-informational?style=flat&logoColor=white&color=00ADD8" />
+## **Project**: Drop-in Replacement Memcals for Delco '808 ECUs <img alt="" align="right" src="https://img.shields.io/badge/Status-Inital%20Design-informational?style=flat&logoColor=white&color=00ADD8" />
 
 
 <!-- Repo Cover Image -->
-<!--
 <p align="center">
-<img alt="" align="center" src="https://github.com/CrashOverrideProductions/GM-PIM-Reverse-Engineering/blob/master/PIM%20Images/PIM_003.jpg?raw=true" />
+<img alt="" align="center" src="https://github.com/KobolSystems/Holden_Memcals/blob/main/RepoImages/MEMCAL.jpg?raw=true" />
 </p>
--->
 
 <!-- Repo Stats -->
+<p align="center">
 <img align="center" src="https://img.shields.io/github/commit-activity/m/KobolSystems/Holden_Memcals">
-<img align="center" src="https://img.shields.io/github/last-commit/CrashOverrideProductions/ALDL-Diagnostics">
-<img align="center" src="https://img.shields.io/github/languages/code-size/CrashOverrideProductions/ALDL-Diagnostics">
-<img align="center" src="https://img.shields.io/github/directory-file-count/CrashOverrideProductions/ALDL-Diagnostics">
+<img align="center" src="https://img.shields.io/github/last-commit/KobolSystems/Holden_Memcals">
+<img align="center" src="https://img.shields.io/github/languages/code-size/KobolSystems/Holden_Memcals">
+<img align="center" src="https://img.shields.io/github/directory-file-count/KobolSystems/Holden_Memcals">
+</p>
 
-<!-- Repo Intro -->
-### Details
-The purpose of this project is to both convert the existing VB.Net code base for ALDL Diagnostics to C# and to introduce new functionality. I.E multi-threading support, faster UI response, additional diagnostic modules and PCM live data view
+## Details
+<p align="justify"> 
+Holden Memcals is a repository dedicated to the development of replacement memcals for the VN-VT Commodore ECU. This repository serves as a comprehensive resource, storing all publicly available tunes for these memcals and offering detailed instructions on how to assemble and program existing tunes to them. Whether you are looking to enhance your vehicle's performance or simply maintain its functionality, Holden Memcals provides the necessary tools and information to support your endeavors.
+</p>
 
 <!-- To Do List -->
-### Project To Do List
-- [ ] Develop UI
-- [ ] Convert Existing VB.Net Modules to C#
-- [ ] Write New Modules
-- [ ] List Items Here
+## Project To Do List
+- [ ] Reverse engineer memcal
+  - [ ] Analyze original memcal architecture
+  - [ ] Identify key components and their functions
+  - [ ] Document findings
+
+- [ ] Design PCBs
+  - [ ] Create schematics
+  - [ ] Design PCB layout
+  - [ ] Prototype and test PCB
+  - [ ] Finalize design
+
+- [ ] Sort tunes
+  - [ ] Gather publicly available tunes
+  - [ ] Categorize tunes based on vehicle model and specifications
+  - [ ] Verify and validate tune files
+
+- [ ] Upload tunes
+  - [ ] Organize tunes into appropriate directories
+  - [ ] Create metadata files for each tune (e.g., version, date, author)
+  - [ ] Ensure tunes are correctly formatted and ready for use
+
+- [ ] Write documentation
+  - [ ] Develop detailed assembly instructions
+  - [ ] Create programming guides for existing tunes
+  - [ ] Write a troubleshooting guide
+  - [ ] Document reverse engineering process
+  - [ ] Update README with project overview and usage instructions
+
+- [ ] Create testing framework
+  - [ ] Develop test cases for memcal functionality
+  - [ ] Implement automated testing procedures
+  - [ ] Document testing results and procedures
+
+- [ ] Community engagement
+  - [ ] Set up a discussion forum or issue tracker
+  - [ ] Encourage contributions and collaborations
+  - [ ] Respond to community questions and feedback
+
+- [ ] Continuous improvement
+  - [ ] Regularly review and update tunes and documentation
+  - [ ] Monitor for new developments and incorporate them
+  - [ ] Maintain version control and changelogs
+
 
 
 <!-- Licencing Always at the Bottom -->
-### Licencing
+## Licencing
 
-#### You May Not:
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-•	Reproduce or copy this document 
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-•	Communicate that work to the public – including fax, email or use on the internet
+You are free to:
 
-•	Display this document in public
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
-•	Adapt, publish, rent or re-broadcast this document
+Under the following terms:
 
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-If you find that you need to use information in this document that is protected under copyright law please contact us to arrange a Licencing Agreement
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-The contents of this document are protected by copyright law. Copyright in this material resides with JB Computer Repairs and various other rights holders e.g. SAE International, General Motors Corporation, Future Technology Devices International and others.
+For more information, please visit [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Unauthorised Possession and or Distribution of this Document could lead to civil and or criminal repercussions. If you received this document by accident or mistake please delete it and contact JB Computer Repairs.
-
-### DISCLAIMER:
-
-Parts of this document originate from the SAE J2740:2005 Specification and are only used to provide an underlying principle of the GM Serial Communication Bus to assist in understanding the GM Holden implementation of the Specification in a specific range of vehicles listed in this document, for an in depth view of these specifications a copy of the standard can be purchased from SAE International https://www.sae.org/standards/content/j2740_200512/
+## Disclaimer
+<p align="justify"> 
+The tunes, BIN, ADX, and XDF files included in this repository are written by third parties (including Holden and other enthusiasts). These files may not be suitable for all applications. Kobol Systems makes no guarantee of their fitness for any particular purpose. Use of these files is entirely at your own risk. 
+<br><br>
+By using these files, you acknowledge that Kobol Systems is not responsible for any damage or issues that may arise from their use. Always ensure that any modifications to your vehicle's ECU are performed by a qualified professional and that you understand the potential risks involved.
+</p>
