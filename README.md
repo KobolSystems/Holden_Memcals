@@ -51,23 +51,6 @@ Holden Memcals is a repository dedicated to the development of replacement memca
   - [ ] Document reverse engineering process
   - [ ] Update README with project overview and usage instructions
 
-- [ ] Create testing framework
-  - [ ] Develop test cases for memcal functionality
-  - [ ] Implement automated testing procedures
-  - [ ] Document testing results and procedures
-
-- [ ] Community engagement
-  - [ ] Set up a discussion forum or issue tracker
-  - [ ] Encourage contributions and collaborations
-  - [ ] Respond to community questions and feedback
-
-- [ ] Continuous improvement
-  - [ ] Regularly review and update tunes and documentation
-  - [ ] Monitor for new developments and incorporate them
-  - [ ] Maintain version control and changelogs
-
-
-
 <!-- Licencing Always at the Bottom -->
 ## Licencing
 
