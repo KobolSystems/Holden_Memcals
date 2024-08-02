@@ -1,4 +1,4 @@
-# Holden_Memcals
+# Holden Memcals
 
 ## **Project**: Drop-in Replacement Memcals for Delco '808 ECUs <img alt="" align="right" src="https://img.shields.io/badge/Status-Inital%20Design-informational?style=flat&logoColor=white&color=00ADD8" />
 
