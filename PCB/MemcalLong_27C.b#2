@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0032258" altunitdist="mm" altunit="mm"/>
+<grid distance="1.27" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.127" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -74,25 +74,27 @@
 </layers>
 <board>
 <plain>
-<text x="86.00645" y="15.824515625" size="1.778" layer="21" rot="R90">BLUE</text>
-<text x="3.68" y="25" size="1.778" layer="21" rot="R180" align="bottom-right">KOBOL SYSTEMS</text>
-<text x="86" y="25" size="1.778" layer="25" align="top-right">REPLACEMENT MEMCAL</text>
-<text x="12" y="1" size="1.778" layer="25">V8    V6    4CYL    TBI</text>
-<text x="77" y="1" size="1.778" layer="21" align="bottom-right">KOBOL.COM.AU</text>
+<text x="88.9" y="10.16" size="1.778" layer="21" rot="R90">BLUE</text>
+<text x="1.68" y="25" size="1.778" layer="21" rot="R180" align="bottom-right">KOBOL SYSTEMS</text>
+<text x="89" y="25" size="1.778" layer="25" align="top-right">REPLACEMENT MEMCAL</text>
+<text x="8" y="1" size="1.778" layer="25">V8    V6    4CYL    TBI</text>
+<text x="83" y="1" size="1.778" layer="21" align="bottom-right">KOBOL.COM.AU</text>
 <text x="35" y="23.5" size="0.8128" layer="21" rot="R180">27C EPROM</text>
-<wire x1="2" y1="0" x2="87" y2="0" width="0.0762" layer="20"/>
-<wire x1="87" y1="0" x2="87" y2="26" width="0.0762" layer="20"/>
-<wire x1="87" y1="26" x2="2" y2="26" width="0.0762" layer="20"/>
-<wire x1="2" y1="26" x2="2" y2="0" width="0.0762" layer="20"/>
+<wire x1="0" y1="0" x2="90" y2="0" width="0.0762" layer="20"/>
+<wire x1="90" y1="0" x2="90" y2="26" width="0.0762" layer="20"/>
+<wire x1="90" y1="26" x2="0" y2="26" width="0.0762" layer="20"/>
+<wire x1="0" y1="26" x2="0" y2="0" width="0.0762" layer="20"/>
+<dimension x1="1" y1="26" x2="1" y2="0" x3="-3" y3="13" textsize="1.778" layer="51"/>
+<dimension x1="90" y1="26" x2="0" y2="26" x3="45" y3="29" textsize="1.778" layer="49"/>
 <rectangle x1="43" y1="25" x2="46" y2="26" layer="21"/>
-<rectangle x1="4" y1="0" x2="7" y2="1" layer="21"/>
-<rectangle x1="82" y1="0" x2="85" y2="1" layer="21"/>
+<rectangle x1="2" y1="0" x2="5" y2="1" layer="21"/>
+<rectangle x1="85" y1="0" x2="88" y2="1" layer="21"/>
 <rectangle x1="43" y1="24.5" x2="46" y2="25.5" layer="21"/>
-<rectangle x1="82" y1="0.5" x2="85" y2="1.5" layer="21"/>
-<rectangle x1="4" y1="0.5" x2="7" y2="1.5" layer="21"/>
+<rectangle x1="85" y1="0.5" x2="88" y2="1.5" layer="21"/>
+<rectangle x1="2" y1="0.5" x2="5" y2="1.5" layer="21"/>
 <text x="57" y="19.5" size="0.8128" layer="21" rot="R180">LHM</text>
 <text x="80" y="19.5" size="0.8128" layer="21" rot="R180">NETRES</text>
-<text x="56.254840625" y="21.890321875" size="0.8128" layer="21">Rev 1.0</text>
+<text x="88.75" y="22.04" size="0.8128" layer="21" rot="R180">Rev 1.0</text>
 </plain>
 <libraries>
 <library name="SSQ-133-02-G-D">

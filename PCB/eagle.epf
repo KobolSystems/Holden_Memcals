@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 06 02"
+Version="09 05 01"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -265,22 +265,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/libraries/untitled.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/PsNee ATtiny45/ATTINY85-20MUR.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/PsNee ATMega328/ATMEGA328PB-AU.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/PsNee ATMega328/CSTCE16M0V53-R0.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/RP2040TR13.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/ABM3BAIG-12.000MHZ-12-4-T.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/W25Q128JVPIQ.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/RAHPCUA20E.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/AP2112K-3.3TRG1.lbr"
-UsedLibrary="C:/Users/justi/Documents/EAGLE/projects/ShadowDuck/Components/47571-0001.lbr"
 UsedLibrary="Libraries/SSQ-133-02-G-D.lbr"
+UsedLibrary="Libraries/AT27C010-70PU.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="6440 2135"
+Screen="7016 2412"
 Window="Win_1"

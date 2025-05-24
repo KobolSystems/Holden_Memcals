@@ -84,6 +84,8 @@
 <wire x1="87" y1="0" x2="87" y2="26" width="0.0762" layer="20"/>
 <wire x1="87" y1="26" x2="2" y2="26" width="0.0762" layer="20"/>
 <wire x1="2" y1="26" x2="2" y2="0" width="0.0762" layer="20"/>
+<dimension x1="1" y1="26" x2="1" y2="0" x3="-3" y3="13" textsize="1.778" layer="51"/>
+<dimension x1="90" y1="26" x2="0" y2="26" x3="45" y3="29" textsize="1.778" layer="49"/>
 <rectangle x1="43" y1="25" x2="46" y2="26" layer="21"/>
 <rectangle x1="4" y1="0" x2="7" y2="1" layer="21"/>
 <rectangle x1="82" y1="0" x2="85" y2="1" layer="21"/>
